@@ -1,0 +1,280 @@
+#result_text{
+    color: rgb(40, 42, 52);
+    border-bottom: 3px solid rgb(40, 42, 52);
+}
+#result_text.dark{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+#code{
+    resize: unset;
+    width: 90%;
+    margin: 10px;
+    outline: unset;
+    padding: 10px;
+    border-radius: 24px;
+    background: #fff;
+    color: rgb(40, 42, 52);
+    border: 3px solid rgb(40, 42, 52);
+}
+aside{
+    display: block;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+main{
+    width: 60%;
+    height: 500px;
+    float: right;
+}
+#download_code{
+    border: 3px solid green;
+    background: green;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#download_code:hover{
+    border: 3px solid green;
+    background: #fff;
+    color: green;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#rcodes{
+    border: 3px solid red;
+    background: red;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#rcodes:hover{
+    border: 3px solid red;
+    background: #fff;
+    color: red;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#remover{
+    border: 3px solid red;
+    background: red;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#remover:hover{
+    border: 3px solid red;
+    background: #fff;
+    color: red;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#yin_yang{
+    border: 3px solid rgb(40, 42, 52);
+    background: rgb(40, 42, 52);
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#yin_yang:hover{
+    border: 3px solid rgb(40, 42, 52);
+    background: #fff;
+    color: rgb(40, 42, 52);
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#csd{
+    border: 3px solid dodgerblue;
+    background: dodgerblue;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#csd:hover{
+    border: 3px solid dodgerblue;
+    background: #fff;
+    color: dodgerblue;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#run{
+    margin-top: 10px;
+    border: 3px solid green;
+    background: green;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#run:hover{
+    border: 3px solid green;
+    background: #fff;
+    color: green;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#save{
+    border: 3px solid dodgerblue;
+    background: dodgerblue;
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#save:hover{
+    border: 3px solid dodgerblue;
+    background: #fff;
+    color: dodgerblue;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+a{
+    line-height: 70px;
+}
+img{
+    border-radius: 50%;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+	box-sizing: border-box;
+}
+body.dark {
+    background: rgb(40, 42, 52);
+    color: #fff;
+}
+#code.dark {
+    background: rgb(40, 42, 52);
+    border: 3px solid #fff;
+    color: #fff;
+}
+#label.dark{
+    background: #fff;
+    color: rgb(40, 42, 52);
+}
+#label.dark:hover{
+    border: 3px solid #fff;
+    background: rgb(40, 42, 52);
+    color: #fff;
+}
+#brand.dark{
+    background: rgb(40, 42, 52);
+}
+#nav.dark{
+    background: rgb(40, 42, 52);
+}
+#brand{
+    color: rgb(40, 42, 52);
+}
+#brand.dark{
+    color: #fff;
+}
+#aside.dark{
+    background: rgb(40, 42, 52);
+}
+#main.dark{
+    background: rgb(40, 42, 52);
+}
+#footer.dark{
+    background: rgb(40, 42, 52);
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+.label{
+    cursor: pointer;
+    border: 3px solid rgb(40, 42, 52);
+    background: rgb(40, 42, 52);
+    color: #fff;
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+    padding-top: 20px;
+}
+.label:hover{
+    cursor: pointer;
+	border: 3px solid rgb(40, 42, 52);
+    background: #fff;
+    color: rgb(40, 42, 52);
+    width: 90%;
+    height: 70px;
+    outline: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+    padding-top: 20px;
+}
