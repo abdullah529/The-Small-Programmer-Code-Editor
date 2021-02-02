@@ -63,6 +63,11 @@ chk.addEventListener('change', () => {
     main.classList.toggle('dark');
     footer.classList.toggle('dark');
     label.classList.toggle('dark');
+    if(label.classList.contains('dark')){
+        label.innerText = "Light Mode";
+    }else{
+        label.innerText = "Dark Mode";
+    }
     brand.classList.toggle('dark');
     result_text.classList.toggle('dark');
     code.classList.toggle('dark');
